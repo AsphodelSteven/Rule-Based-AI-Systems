@@ -41,7 +41,8 @@ To validate my rule-based weather AI, I created a physical Pangaea model using p
 2. Teal
 3. Green / Yellow
 4. Orange / Red
-5. Lime  ——— EQUATOR ———
+5. Lime 
+——— EQUATOR ———
 The pattern is mirrored across the equator
 
 ### Take the following steps
@@ -81,6 +82,65 @@ The Rule of Three: Biome and Weather Determinants
 1. **Thermal Energy (Temperature):** Driven by latitudinal position (proximity to Equator/Poles), this determines the "potential energy" of a cell.
 2. **Saturation (Humidity):** Driven by proximity to water sources (oceans/lakes), this determines the "fuel" for storm fronts.
 3. **The Catalyst (Elevation):** Acts as a physical barrier. When air is forced upward (Orographic Lift), it cools and loses humidity; when it sinks, it warms and dries (Rain Shadow).
+
+# Responses
+## #1
+--- DnD 4X Fief Simulator: Weather Module ---
+Simulating a collision between a Moving Front (Cell A) and Local Environment (Cell B).
+
+Configure Cell A (The Incoming Front):
+Temperature (Cold, Mild, Hot): cold
+Humidity (Dry, Damp, Moist): moist
+
+Configure Cell B (The Local Terrain/Environment):
+Local Temperature (Cold, Mild, Hot): hot
+Elevation (Lowland, Highland, Mountain): lowland
+
+--- AI Analysis of Collision Zone ---
+Status: SEVERE ALERT: Tornado formation likely. Warm moist air is being rapidly undercut by the cold front.
+Atmosphere: The sky turns a bruised purple and the wind begins to howl in circles.
+
+--- Simulation Complete ---
+Press any key to continue . . .
+
+## #2
+--- DnD 4X Fief Simulator: Weather Module ---
+Simulating a collision between a Moving Front (Cell A) and Local Environment (Cell B).
+
+Configure Cell A (The Incoming Front):
+Temperature (Cold, Mild, Hot): hot
+Humidity (Dry, Damp, Moist): moist
+
+Configure Cell B (The Local Terrain/Environment):
+Local Temperature (Cold, Mild, Hot): hot
+Elevation (Lowland, Highland, Mountain): mountain
+
+--- AI Analysis of Collision Zone ---
+Status: OROGRAPHIC LIFT: Heavy precipitation on the windward side.
+Atmosphere: Clouds snag on the peaks, dumping rain. The leeward side remains a dry rain shadow.
+
+--- Simulation Complete ---
+Press any key to continue . . .
+
+## #3
+--- DnD 4X Fief Simulator: Weather Module ---
+Simulating a collision between a Moving Front (Cell A) and Local Environment (Cell B).
+
+Configure Cell A (The Incoming Front):
+Temperature (Cold, Mild, Hot): mild
+Humidity (Dry, Damp, Moist): dry
+
+Configure Cell B (The Local Terrain/Environment):
+Local Temperature (Cold, Mild, Hot): mild
+Elevation (Lowland, Highland, Mountain): lowland
+
+--- AI Analysis of Collision Zone ---
+Status: STABLE: No severe weather fronts detected.
+Atmosphere: The weather remains calm. Ideal for travel or construction.
+
+--- Simulation Complete ---
+Press any key to continue . . .
+
 
 # Reflection
 How the system works:

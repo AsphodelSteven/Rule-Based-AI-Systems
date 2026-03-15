@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Visual Studio / IDE specific
+.vs/
+.vscode/
+bin/
+obj/
+
+# OS specific
+Thumbs.db
+Desktop.ini
