@@ -82,3 +82,12 @@ The Rule of Three: Biome and Weather Determinants
 2. **Saturation (Humidity):** Driven by proximity to water sources (oceans/lakes), this determines the "fuel" for storm fronts.
 3. **The Catalyst (Elevation):** Acts as a physical barrier. When air is forced upward (Orographic Lift), it cools and loses humidity; when it sinks, it warms and dries (Rain Shadow).
 
+# Reflection
+How the system works:
+My rule-based weather AI functions as a logic-gate processor for atmospheric interactions. Rather than using complex fluid dynamics, it utilizes a set of "if-then" rulesets derived from basic meteorological principles: the collision of differing thermal and moisture fronts. By inputting the state of an incoming weather cell and the local environment, the system evaluates the potential for severe events like tornadoes or rain shadows. This mimics early 20th-century weather prediction methods where meteorologists used observed patterns rather than the massive datasets used in modern machine learning.
+
+Challenges with AI Prompting:
+The primary challenge in prompting the AI was Scope Creep. Initially, I wanted to build a full 25x25 grid simulation, but through dialogue with the AI, I realized that the core of the assignment was about the logic of the rules, not the complexity of the visualization. I had to pivot the AI from generating a visual tool to generating a Triple-Cell Collision Engine. Another challenge was ensuring the AI understood the Pangaea DIY craft I developed. I had to guide the AI to translate physical paper-crumpling (orographic lift) into specific Python logic gates. This collaborative process taught me that the most effective AI-assisted coding happens when the developer provides the scientific truth (the world-building logic) and the AI provides the mechanical structure (the Python conditionals).
+
+Future of the System:
+Because this is only a small part (the engine) of how weather would effect a living, breathing world, the code developed as part of this assignment will later be applied to a larger grid, to multiple cells at a time, utilizing storm fronts that occupy more than a single cell. This exact functionality is nothing new, but there are no products available publicly currently that enable this sort of simplified and easy-to-understand interaction, which could allow hobby story creators to simulate the weather or formation of their world's biomes.
