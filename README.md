@@ -79,3 +79,10 @@ The pattern is mirrored across the equator
 4. Add rivers and lakes
 5. Add one small mini continent for the North Pole
 6. One gigantic for the South Arctic
+
+# The Rules of Weather Simulation
+The Rule of Three: Biome and Weather Determinants
+1. **Thermal Energy (Temperature):** Driven by latitudinal position (proximity to Equator/Poles), this determines the "potential energy" of a cell.
+2. **Saturation (Humidity):** Driven by proximity to water sources (oceans/lakes), this determines the "fuel" for storm fronts.
+3. **The Catalyst (Elevation):** Acts as a physical barrier. When air is forced upward (Orographic Lift), it cools and loses humidity; when it sinks, it warms and dries (Rain Shadow).
+
